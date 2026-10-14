@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "creepergolemmod",
+  "version": "${version}",
+  "name": "Creeper Golem Mod",
+  "description": "A mod that adds a creeper golem entity.",
+  "authors": ["sconnone23"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sconnone23.creepergolemmod.CreeperGolemMod"
+    ]
+  },
+  "minecraft": {
+    "*": {
+      "version": "1.21.4",
+      "ordering": "NONE",
+      "side": "BOTH"
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
